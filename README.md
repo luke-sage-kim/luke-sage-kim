@@ -21,6 +21,18 @@
 - 🚀 **Nginx를 통한 HTTP/HTTPS 트래픽 중계 및 서비스 배포 실습 경험**
 
 ---
+## 🛠 Tech Stacks
+
+| 분류 | 기술 |
+|------|------|
+| 📋 **Language** | Java, JavaScript, SQL |
+| 🧑‍🤝‍🧑 **Collaboration Tool** | Git, GitHub, GitLab, Jira, Notion |
+| 🔨 **IDE** | IntelliJ IDEA, VS Code, SQL Developer, DBeaver |
+| 📚 **Frameworks, Platforms and Libraries** | Spring, Spring Boot, MyBatis, JPA, React |
+| 📥 **DB** | Oracle, MySQL, PostgreSQL, H2 |
+| 🗄️ **Servers** | Linux (CentOS, Ubuntu), AWS EC2, Nginx, Apache Tomcat |
+
+---
 
 ## 📫 Contact
 
