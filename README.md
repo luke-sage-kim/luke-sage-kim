@@ -1,47 +1,75 @@
-# 👋 Welcome to My GitHub!
+# 👋 안녕하세요, 백엔드 개발자 김명현입니다
 
-안녕하세요! 백엔드 중심의 풀스택 개발자로서, Java 및 다양한 기술 스택을 활용해  
-**효율적인 시스템 구축과 데이터 처리**에 집중해온 김명현 개발자입니다.  
-- 보험사 대상 프로젝트를 1년 이상 수행하며 커뮤니케이션 역량과 도메인 지식을 쌓았습니다.
-- 회계 및 금융 도메인 이해도가 높아 관련 프로젝트에 빠르게 적응할 수 있습니다.
-- 문서 파싱 및 데이터 자동화 시스템을 Java 및 SQL로 구현한 경험이 있습니다.
-- 개인 프로젝트를 통해 AWS EC2, RDS, S3, CloudFront를 활용한 서비스 배포 경험이 있습니다.
+**장애 복구에서 멈추지 않고, 재발하지 않는 구조를 만드는 백엔드 개발자**
 
-실무 경험과 프로젝트를 통해 쌓아온 역량을 아래와 같이 소개합니다. 😊
+Java/Spring 기반 4년차 백엔드 개발자입니다.
+보험사 문서 자동화 솔루션, 30개국에 서비스하는 모바일 RPG 게임 서버, 대기업 사내 생성형 AI 서비스(RAG 챗봇·AI Agent)까지
+서로 다른 세 도메인에서 개발과 운영을 맡아 왔습니다.
+
+🔗 **포트폴리오**: https://luke-sage-kim.github.io/my_portfolio-/
+
+---
+
+## 💼 Experience
+
+| 기간 | 회사 · 업무 | 주요 성과 |
+|---|---|---|
+| 2026.03 ~ 현재 | **㈜아이티오솔루션** · 대기업 사내 AI 서비스 개발·운영 | RAG 챗봇 OOM 장애 근본 해결(이후 재발 0건) · 14개 프로젝트 보안 취약점 2,300건 조치 · LLM 뉴스 판별 파이프라인으로 검수 시간 10분 → 1분 |
+| 2025.08 ~ 2026.03 | **㈜하이브로** · 글로벌 모바일 RPG 게임 서버 | 글로벌 로그인 장애 2시간 내 복구 · 로그인 API 호출 8회 → 1회 · DB 쓰기 30% 감소 · 100만 회 시뮬레이션 확률 검증 API 구축 |
+| 2023.08 ~ 2025.07 | **㈜메인라인** · 보험사 약관 자동 분석 솔루션 | 보험사 5곳 구축 · 약관 602건을 16개 패턴으로 공통화 · 문서 분석 시간 3시간 → 5분 |
+| 2023.01 ~ 2023.07 | **㈜아이티오솔루션** · GIS 해역 영향 평가 시스템 | 공공데이터 크롤링·적재, 지도 레이어와 폴리곤 영역 조회 개발 |
 
 ---
 
-## 🧑‍💻 About Me
+## 🧭 How I Work
 
-- 🧩 **Java, JavaScript**를 활용한 다양한 시스템 개발 및 데이터 처리 경험 보유
-- 🗂 **Oracle, MySQL, PostgreSQL** 등 주요 데이터베이스를 활용한 SQL 개발 및 성능 튜닝 가능
-- 🌱 **Spring, Spring Boot, MyBatis, JPA** 등 백엔드 프레임워크 실무 적용 경험
-- 📄 **Java 또는 SQL 기반 문서 파싱 및 데이터 추출 자동화** 업무 수행
-- 🖥 **리눅스 기반 서버 설치, 운영, 재기동** 등 서버 관리 및 운영 가능
-- 🔗 자사 **솔루션 프로그램 구조에 대한 높은 이해도**를 바탕으로 **타 시스템 연계 및 고객 맞춤 전환** 수행
-- 💼 **1년 이상 보험사 프로젝트 수행**으로 관련 도메인 지식 보유 및 **고객 커뮤니케이션 역량 우수**
-- 🧾 **회계(재무, 세무, 원가)** 관련 도메인 지식 보유로 **금융/회계 프로젝트 이해도 높음**
-- 🛠 **개인 프로젝트를 통해 React와 JPA 기반 웹 서비스 구현** 및  
-      **AWS EC2, RDS, S3, CloudFront 활용 경험**
-- 🚀 **Nginx를 통한 HTTP/HTTPS 트래픽 중계 및 서비스 배포 실습 경험**
+- **먼저 살리고, 원인을 찾고, 구조를 바꿉니다.** 장애가 나면 서비스를 먼저 복구하고, 원인을 코드 수준까지 추적한 뒤 같은 문제가 다시 생기지 않도록 고칩니다.
+- **검증할 수 있게 만듭니다.** 확률형 콘텐츠는 100만 회 시뮬레이션으로 검증한 뒤 배포했고, 라이브에서 오류가 나오면 그 케이스를 검증 API에 추가했습니다.
+- **기획부터 배포까지 혼자서도 끝냅니다.** 요구사항 정의, 유관 부서 협의, 프론트엔드·백엔드 개발, 매뉴얼 작성까지 단독으로 진행한 경험이 있습니다.
+- **회계·금융 도메인을 이해합니다.** 회계금융 전공, 세무사 1차 합격 경험을 바탕으로 보험·회계 도메인 요구사항을 코드로 옮겨 왔습니다.
 
 ---
-## 🛠 Tech Stacks
+
+## 📂 Side Projects
+
+### 📊 ABSES: AI 기반 스마트 ERP
+복식부기 원칙(차변 = 대변)을 서버에서 강제하는 전표·계정과목 관리 ERP
+- 복식부기 검증, 정액법·정률법 감가상각, 시산표·재무상태표 집계
+- JOIN FETCH와 페이징을 같이 쓸 때 생기는 메모리 페이징 문제를 2단계 조회로 해결
+- OpenSearch 감사 로그, 로컬 LLM(Ollama) 기반 재무 분석 리포트
+- `Java 17` `Spring Boot 3.2` `JPA` `MariaDB` `Next.js 14` `OpenSearch` `Ollama` `Docker Compose`
+- 🔗 [저장소 링크]
+
+### 🎸 밀키스 밴드 그룹웨어
+밴드원들의 합주 일정 투표, 곡 선정, 녹음본, 게시판·갤러리를 한곳에서 관리하는 웹 서비스
+- 도메인 단위 패키지 구조, 세션 기반 인증, 관리자 가입 승인
+- 파일은 디스크, 메타데이터는 DB로 분리한 업로드 구조
+- 댓글·추천 테이블을 4개 도메인이 공유하는 다형성 설계
+- `Spring Boot` `JPA` `MySQL` `React` `Tailwind CSS`
+- 🔗 [저장소 링크]
+
+---
+
+## 🛠 Tech Stack
 
 | 분류 | 기술 |
-|------|------|
-| 📋 **Language** | Java, JavaScript, SQL |
-| 🧑‍🤝‍🧑 **Collaboration Tool** | Git, GitHub, GitLab, Jira, Notion |
-| 🔨 **IDE** | IntelliJ IDEA, VS Code, SQL Developer, DBeaver |
-| 📚 **Frameworks, Platforms and Libraries** | Spring, Spring Boot, MyBatis, JPA, React |
-| 📥 **DB** | Oracle, MySQL, PostgreSQL, H2 |
-| 🗄️ **Servers** | Linux (CentOS, Ubuntu), AWS EC2, Nginx, Apache Tomcat |
+|---|---|
+| **Backend** | Java, Spring Boot, JPA, MyBatis, Python, Protocol Buffers |
+| **Database · Search** | MySQL, MariaDB, Oracle, PostgreSQL, Redis, MongoDB, OpenSearch / Elasticsearch |
+| **AI** | RAG, LLM 연동(GPT, Gemini, Ollama), 임베딩 모델, 프롬프트 설계 |
+| **Frontend** | React, Next.js, JavaScript, TypeScript |
+| **Infra · DevOps** | AWS(EC2, EBS, RDS), Docker, Jenkins, GitHub Actions, ELK Stack, Linux |
+| **Tools** | Git, IntelliJ IDEA, VS Code, DBeaver, Sparrow(보안 진단) |
+
+---
+
+## 📜 Certifications
+
+정보처리기사 · SQL 개발자(SQLD) · 세무사 1차 합격
 
 ---
 
 ## 📫 Contact
 
-- Email: kmh950618@naver.com  
-
-
----
+- Email: kmh950618@naver.com
+- Portfolio: https://luke-sage-kim.github.io/my_portfolio-/
